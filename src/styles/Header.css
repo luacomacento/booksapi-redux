@@ -1,0 +1,26 @@
+header {
+  background-color: rgb(188, 13, 54);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 32px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-right {
+  display: flex;
+  gap: 16px;
+}
+
+.header-right span:first-child {
+  font-weight: 600;
+}
